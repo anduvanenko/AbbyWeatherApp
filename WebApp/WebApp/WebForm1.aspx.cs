@@ -23,7 +23,7 @@ namespace WebApp
             string state = TextBox2.Text;
             string city = TextBox1.Text;
             
-            string url = string.Format("http://api.wunderground.com/api/{0}/conditions/q/{1}/{2}.json", apiID, state, city);
+            var url = string.Format("http://api.wunderground.com/api/{0}/conditions/q/{1}/{2}.json", apiID, state, city);
             string urlMultiDay = string.Format("http://api.wunderground.com/api/{0}/forecast10day/q/{1}/{2}.json", apiID, state, city);
             string urlHourly = string.Format("http://api.wunderground.com/api/{0}/hourly/q/{1}/{2}.json", apiID, state, city);
             string urlDaily = string.Format("http://api.wunderground.com/api/{0}/forecast/q/{1}/{2}.json", apiID, state, city);
@@ -43,8 +43,8 @@ namespace WebApp
                 Daily.Text = "Daily: " + dailyWeatherInfo.forecast.simpleforecast.forecastday[0].conditions;
                 Hourly.Text = "Hourly: " + "Hour: " + hourlyWeatherInfo.hourly_forecast[0].FCTTIME.hour + " Temp: " + hourlyWeatherInfo.hourly_forecast[0].temp.english + " Condition: "
                     + hourlyWeatherInfo.hourly_forecast[0].condition;
+                //Hourly.Text = "hourly: " + hourlyWeatherInfo.hourly_forecast[0];
                 MultiDay.Text = "Weather for the week: " + weeklyWeatherInfo.forecast.txt_forecast.forecastday[0].fcttext;
-
             }
         }
     }
