@@ -1,0 +1,5 @@
+With looking back over the project, I realized why I can't input anything besides Carmel, IN.
+The error was in the C# code when I used json to c# converter. 
+With taking the json from carmel, it has the wind_gust_mph as an int, while fishers is a string.
+I need to adjust the json to c# to be able to work for any type that is going to be parsed through
+I am currently working on a solution for that along with updating more of the json outputs for weather data.
