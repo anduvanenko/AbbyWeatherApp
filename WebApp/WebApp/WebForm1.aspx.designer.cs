@@ -148,12 +148,21 @@ namespace WebApp {
         protected global::System.Web.UI.WebControls.Label DailyTemperatures;
         
         /// <summary>
-        /// MultiDailyWeatherConditions control.
+        /// NiceDaysOfWeek control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label MultiDailyWeatherConditions;
+        protected global::System.Web.UI.WebControls.Label NiceDaysOfWeek;
+        
+        /// <summary>
+        /// NiceDaysLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label NiceDaysLabel;
     }
 }

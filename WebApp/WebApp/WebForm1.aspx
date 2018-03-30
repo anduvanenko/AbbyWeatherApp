@@ -44,8 +44,9 @@
             <asp:Label ID="DailyTemperatures" runat="server" Text="Daily Temperatures"></asp:Label>
             <br />
             <br />
+            <asp:Label ID="NiceDaysOfWeek" runat="server" Text="Nice Days of the week are clear"></asp:Label>
             <br />
-            <asp:Label ID="MultiDailyWeatherConditions" runat="server" Text="Multi Day Weather Conditions"></asp:Label>
+            <asp:Label ID="NiceDaysLabel" runat="server" Text="Nice Days: "></asp:Label>
             <br />
             <br />
         </div>
