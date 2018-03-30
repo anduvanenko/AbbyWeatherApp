@@ -1,6 +1,12 @@
 # AbbyWeatherApp
 Weather website
 
+MAIN UPDATE:
+finished out the project.
+added "nice" days to finish it off in a branch called niceDaysPulled
+fixed up the layout a bit more
+I still want to add a better layout for the project but functionality of it is completed
+
 UPDATE:
 Created branch JSONChanges (have github linked up with sourcetree to visually see changes/branches better)
 I updated all of the c# code that I didn't need for now for json parsing. commented it out, will clean up.
@@ -19,6 +25,8 @@ created another branch called multidayBugAndLineBreaks
 realized I wasn't pulling in the data in the json for temperature properly
 made line breaks to make it easier to see the daily forecast and all the temperatures I was pulling for each part
 added a few labels to make it easier for the user to know what the numbers and data was pulling
+
+
 
 Apologize in advance for the essay, but I wanted to make sure my thought process was put out there and everything I would do different on this project seeing how I started the project a bit late this week on top of working full time. Also I do relate a lot of my life and random topics throughout it. Just so my personality shows a bit more throughout this :D
 
