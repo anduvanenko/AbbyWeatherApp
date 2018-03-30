@@ -22,16 +22,29 @@
             <asp:Button ID="Button1" runat="server" Text="What's my weather?" OnClick="Button1_Click" />
             <br />
             <br />
-            <asp:Label ID="conditions" runat="server" Text="Weather Condtions"></asp:Label>
+            <asp:Label ID="conditions" runat="server" Text="Weather Conditions"></asp:Label>
             <br />
             <br />
-            <asp:Label ID="Daily" runat="server" Text="Daily"></asp:Label>
+            <asp:Label ID="DailyWeatherCondition" runat="server" Text="Daily weather condition: "></asp:Label>
+            <br />
+            <asp:Label ID="DailyTemp" runat="server" Text="Daily High and Low Temp: "></asp:Label>
+            <br />
+            <asp:Label ID="CurrentTemp" runat="server" Text="Current Temperature: "></asp:Label>
             <br />
             <br />
-            <asp:Label ID="Hourly" runat="server" Text="Hourly"></asp:Label>
+            <asp:Label ID="HourlyLayout" runat="server" Text="Hour,temp,condition:"></asp:Label>
+            <br />
+            <asp:Label ID="Hourly" runat="server" Text="Hourly: "></asp:Label>
             <br />
             <br />
-            <asp:Label ID="MultiDay" runat="server" Text="MultiDay"></asp:Label>
+            <asp:Label ID="MultiDay" runat="server" Text="Weather for the week: "></asp:Label>
+            <br />
+            <asp:Label ID="DailyTemperatures" runat="server" Text="Daily Temperatures"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <asp:Label ID="MultiDailyWeatherConditions" runat="server" Text="Multi Day Weather Conditions"></asp:Label>
+            <br />
             <br />
         </div>
     </form>
