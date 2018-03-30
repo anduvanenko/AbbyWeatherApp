@@ -7,6 +7,12 @@ I updated all of the c# code that I didn't need for now for json parsing. commen
 Just pushing for now since I can now input any state and city in without issues (that I know of so far).
 going to work on error handling down the road if there is no input, etc.
 
+UPDATE 2:
+created another branch, weatherUpdates
+had daily, hourly, mulitday pull better data down
+still working on fixing multiday because one of the labels isn't working right for high and low temperatures
+still working on adding which days are nice for the week
+have some other adjustments I want to do but otherwise focusing on functionality of project
 
 
 Apologize in advance for the essay, but I wanted to make sure my thought process was put out there and everything I would do different on this project seeing how I started the project a bit late this week on top of working full time. Also I do relate a lot of my life and random topics throughout it. Just so my personality shows a bit more throughout this :D
