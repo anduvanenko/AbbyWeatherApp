@@ -52,7 +52,7 @@ namespace WebApp
                     var hour = hourlyWeatherInfo.hourly_forecast[i].FCTTIME.hour;
                     var temp = hourlyWeatherInfo.hourly_forecast[i].temp.english;
                     var condition = hourlyWeatherInfo.hourly_forecast[i].condition;
-                    Hourly.Text += hour + ":" + temp + ":" + condition + ", ";
+                    Hourly.Text += hour + ":" + temp + ":" + condition + ", <br />";
                 }
 
                 MultiDay.Text = "";
@@ -60,15 +60,15 @@ namespace WebApp
                 {
                     var day = weeklyWeatherInfo.forecast.txt_forecast.forecastday[f].title;
                     var weatherCondition = weeklyWeatherInfo.forecast.txt_forecast.forecastday[f].fcttext;
-                    MultiDay.Text += day + ":" + weatherCondition + ", ";
+                    MultiDay.Text += day + ":" + weatherCondition + ", <br /><br />";
                 }
 
                 DailyTemperatures.Text = "";
-                for (int t = 0; t < 7; t++)
+                for (int t = 0; t < 8; t++)
                 {
-                    var highTemp = weeklyWeatherInfo.forecast.simpleforecast.forecastday[t].high;
-                    var lowTemp = weeklyWeatherInfo.forecast.simpleforecast.forecastday[t].low;
-                    DailyTemperatures.Text += highTemp + ":" + lowTemp + ", ";
+                    var highTemp = weeklyWeatherInfo.forecast.simpleforecast.forecastday[t].high.fahrenheit;
+                    var lowTemp = weeklyWeatherInfo.forecast.simpleforecast.forecastday[t].low.fahrenheit;
+                    DailyTemperatures.Text += highTemp + ":" + lowTemp + ", <br />";
                 }
             }
         }

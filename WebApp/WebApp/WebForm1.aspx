@@ -39,6 +39,8 @@
             <br />
             <asp:Label ID="MultiDay" runat="server" Text="Weather for the week: "></asp:Label>
             <br />
+            <asp:Label ID="HighLow" runat="server" Text="HighTemp:LowTemp"></asp:Label>
+            <br />
             <asp:Label ID="DailyTemperatures" runat="server" Text="Daily Temperatures"></asp:Label>
             <br />
             <br />
