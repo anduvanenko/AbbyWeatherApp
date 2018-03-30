@@ -76,13 +76,40 @@ namespace WebApp {
         protected global::System.Web.UI.WebControls.Label conditions;
         
         /// <summary>
-        /// Daily control.
+        /// DailyWeatherCondition control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Daily;
+        protected global::System.Web.UI.WebControls.Label DailyWeatherCondition;
+        
+        /// <summary>
+        /// DailyTemp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DailyTemp;
+        
+        /// <summary>
+        /// CurrentTemp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CurrentTemp;
+        
+        /// <summary>
+        /// HourlyLayout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label HourlyLayout;
         
         /// <summary>
         /// Hourly control.
@@ -101,5 +128,23 @@ namespace WebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label MultiDay;
+        
+        /// <summary>
+        /// DailyTemperatures control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DailyTemperatures;
+        
+        /// <summary>
+        /// MultiDailyWeatherConditions control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label MultiDailyWeatherConditions;
     }
 }
